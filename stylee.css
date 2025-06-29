@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    padding: 20px;
+    background-image: url("codingggggg.jpg");
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .card {
+    background: #e3f2fd; 
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* Soft drop shadow */
+  }
+  
+  .card h1 {
+    color: #1e88e5; /* Accent blue for heading */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .card ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card li {
+    margin-bottom: 5px;
+  }
+  
